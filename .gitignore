@@ -137,6 +137,9 @@ GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
 
+# Packed NuGet Packages
+*.nupkg
+
 # =========================
 # Windows detritus
 # =========================

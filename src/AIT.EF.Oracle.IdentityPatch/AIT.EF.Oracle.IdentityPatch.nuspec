@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AIT.EF.Oracle.IdentityPatch</id>
+    <version>$version$</version>
+    <title>AIT EF Oracle Identity Patch</title>
+    <authors>Jan Mattner</authors>
+    <owners>AIT</owners>
+    <projectUrl>http://www.aitgmbh.de/</projectUrl>
+    <licenseUrl>https://github.com/AITGmbH/AIT.EF.Oracle.IdentityPatch/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Oracle Databases (&lt;12.1) do not know identity columns. Therefore the auto increment with the generated *.edmx files does not work. This package offers a patch to change the specified columns in the project's *.edmx files to identity columns.</description>
+    <summary>Patch for *.edmx files generated with Oracle Database (&lt;12.1) to include identity columns.</summary>
+    <releaseNotes>$releaseNotes$</releaseNotes>
+    <iconUrl>http://www.aitgmbh.de/fileadmin/templates/templates2011/bilder/footer-logo.png</iconUrl>
+    <copyright>Copyright (c) 2014, AIT GmbH &amp; Co. KG</copyright>
+    <tags>AIT EF EDMX Oracle Database Identity</tags>
+    <dependencies>
+      <dependency id="MSBuild.Extension.Pack" version="[1.4.0]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Build\*.targets" target="build" />
+  </files>
+</package>
