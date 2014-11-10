@@ -7,4 +7,6 @@ This package is available via NuGet at https://www.nuget.org/packages/AIT.EF.Ora
 
 To install AIT EF Oracle Identity Patch, run the following command in the [Package Manager Console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console):
 
-    PM> Install-Package AIT.EF.Oracle.IdentityPatch 
+    PM> Install-Package AIT.EF.Oracle.IdentityPatch
+
+This software is provided by [AIT GmbH & Co. KG](http://www.aitgmbh.de/en/).

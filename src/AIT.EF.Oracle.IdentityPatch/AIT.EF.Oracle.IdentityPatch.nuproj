@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>1e82e1ca-bd15-4540-983d-540dfb25abef</ProjectGuid>
+    <OutputPath>Bin\</OutputPath>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <NuBuildVersionSource>library</NuBuildVersionSource>
+    <NuBuildVersionFileName>true</NuBuildVersionFileName>
+    <NuBuildAddBinariesToSubfolder>false</NuBuildAddBinariesToSubfolder>
+    <NuBuildIncludePdbs>false</NuBuildIncludePdbs>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AIT.EF.Oracle.IdentityPatch.nuspec" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Build" />
+    <Folder Include="Content" />
+    <Folder Include="Content\Config\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Build\AIT.EF.Oracle.IdentityPatch.Main.targets">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Build\AIT.EF.Oracle.IdentityPatch.targets">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Config\AIT.EF.Oracle.IdentityPatch.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\NuBuild\v1\NuBuild.targets" />
+</Project>
