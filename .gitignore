@@ -17,6 +17,9 @@ build/
 # Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
 !packages/*/build/
 
+# Enable specific "Build" folder for NuGet project
+!src/AIT.EF.Oracle.IdentityPatch/Build/
+
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
